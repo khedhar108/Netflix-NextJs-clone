@@ -1,10 +1,10 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { signIn } from "next-auth/react";
 import Image from "next/image";
 import GooogleIcon from "../../../public/google.svg";
-
+//? inbuilt signIn nextauth
+import { signIn } from "next-auth/react";
 export default function GoogleSignInButton() {
   return (
     <Button onClick={() => signIn("google")} variant="outline" size="icon">

@@ -6,3 +6,6 @@ import { ReactNode } from "react";
 export const NextAuthProvider = ({ children }: { children: ReactNode }) => {
   return <SessionProvider>{children}</SessionProvider>;
 };
+
+
+// used :  root layout

@@ -1,0 +1,7 @@
+ pnpm add @prisma/client @auth/prisma-adapter
+ pnpm add prisma --save-dev
+
+ pnpx prisma init
+  pnpx prisma db push
+
+
